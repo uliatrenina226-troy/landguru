@@ -214,6 +214,7 @@ body {
 .brands {
     display: flex;
     gap: 21px;
+    align-items: center;
 }
 
 .sponsor {
@@ -224,7 +225,7 @@ body {
     font-size: 16px;
     line-height: 42px;
     opacity: 0.4;
-    margin-top: 5px;
+    
 }
 
 .main {
@@ -235,6 +236,131 @@ body {
 .about {
     margin: 0 auto;
     max-width: 1700px;
+}
+
+.paypal {
+    display: inline-block;  
+    width: 100px;
+    height: 28px;
+    
+}
+
+.google {
+    display: inline-block;
+    width: 85px;
+    height: 28px;
+}
+
+.dropbox {
+    display: inline-block;
+    width: 123px;
+    height: 24px;
+}
+
+.setka {
+    position: absolute;
+    margin-left: 1349px;
+    margin-top: 145px;
+    width: 302px;
+    height: 346px;
+    opacity: 40%;
+    z-index: 1;
+}
+
+.thone {
+    position: absolute;
+    width: 900px;
+    height: 740px;
+    margin-left: 977px;
+    margin-top: 166px;
+    z-index: 2;
+}
+
+.about__meet {
+    width: 955px;
+    height: 469px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+}
+
+.features {
+    text-align: center;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 700;
+    color: #244886;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+}
+
+.about__title {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0f2137;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: -1.5px;
+    vertical-align: middle;
+    margin-bottom: 108px;
+}
+
+.three {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.three1 {
+    padding-top: 10px;
+    width: 265px;
+    height: 267px;
+    text-align: center;
+}
+
+.three2 {
+    padding-top: 10px;
+    width: 265px;
+    height: 267px;
+    text-align: center;
+}
+
+.three3 {
+    padding-top: 10px;
+    width: 265px;
+    height: 267px;
+    text-align: center;
+}
+
+.green {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 15px;
+}
+
+.three__title {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0F2137;
+    margin-bottom: 40px;
+}
+
+.blue {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 15px;
+}
+
+.three__title2 {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0f2137;
+    margin-bottom: 30px;
 }
 
 
