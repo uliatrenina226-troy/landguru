@@ -1,0 +1,241 @@
+body {
+    background-color: #fff;
+    width: 1920px;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src:url('../fonts/Poppins-Bold.ttf') format('ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('../fonts/DMSans_18pt-Bold.ttf') format('ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('../fonts/DMSans_18pt-Medium.ttf') format(ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Heebo', sans-serif;
+    src: url('../fonts/Heebo-Medium.ttf');
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.header {
+    display: flex;
+    width: 1920px;
+    height: 1000px;
+    background: url(../images/BG.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: -2;
+}
+
+.elem {
+    position: absolute;
+    content: "";
+    width: 439px;
+    height: 471px;
+    background-image: url(../images/top.png);
+    z-index: -1;
+    
+}
+
+.elem2 {
+    position: absolute;
+    content: "";
+    width: 439px;
+    height: 526px;
+    background-image: url(../images/bottoml.png);
+    z-index: -1;
+    margin-top: 473px;
+}
+
+.elem3 {
+    position: absolute;
+    content: "";
+    width: 550px;
+    height: 905px;
+    background-image: url(../images/center1_conv.webp);
+    z-index: -1;
+    margin-left: 439px;
+}
+
+.elem4 {
+    position: absolute;
+    content: "";
+    width: 550px;
+    height: 778px;
+    background-image: url(../images/center2.png);
+    z-index: -1;
+    margin-left: 989px;
+    margin-top: 222px;
+}
+
+.elem5 {
+    position: absolute;
+    content: "";
+    width: 381px;   
+    height: 222px;
+    background-image: url(../images/rt.png);
+    z-index: -1;
+    margin-left: 1539px;
+}
+
+.elem6 {
+    position: absolute;
+    content: "";
+    width: 381px;
+    height: 526px;
+    background-image: url(../images/bottomR.png);
+    z-index: -1;
+    margin-left: 1539px;
+    margin-top: 222px;
+}
+
+.header__navigator  {
+   width: 1251px;
+   height: 50px;
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center;
+   
+   margin-left: 335px;
+   margin-top: 21px;
+   z-index: 0;
+}
+
+.title {
+    font-size: 85px;
+    color: #fff;
+    font-family: DM Sans;
+    font-weight: 700;
+    margin-bottom: 29px;
+}
+
+.menu__list {
+    display: flex;
+    gap: 30px;
+}
+
+.link__logo > img {
+    display: inline-block;
+    width: 29.6px;
+    height: 20px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.link__logo > span {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Poppins;
+    color:#fff
+}
+
+.menu__link {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    color: #fff;
+}
+
+.nav__btn {
+    width: 150px;
+    height: 50px; 
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 17px;
+}
+
+.wrapper {
+    width: 642px;
+    height: 700px;
+    margin-left: 335px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-family: DM Sans;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    line-height: 42px;
+    margin-bottom: 38px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+}
+
+.header__btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    color: #0F2137;
+    background-color: #fff;
+    margin-right: 20px;
+    
+}
+
+.video__link {
+    color: #fff;
+    font-family: Heebo;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.vlink {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.brands {
+    display: flex;
+    gap: 21px;
+}
+
+.sponsor {
+    font-family: DM Sans;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 16px;
+    line-height: 42px;
+    opacity: 0.4;
+    margin-top: 5px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.about {
+    margin: 0 auto;
+    max-width: 1700px;
+}
+
+
+
